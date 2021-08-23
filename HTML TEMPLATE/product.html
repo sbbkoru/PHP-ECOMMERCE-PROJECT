@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- BOOTSTRAP CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- OWL CAROUSEL CDN-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .GFG {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header id="header">
+      <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+        <p class="font-rale font-size-12 text-black-50 m-0">
+          Berkay Buyukkoru, 2021
+        </p>
+        <div class="font-rale font-size-14">
+          <a href="#" class="px-3 border-right border-left text-dark"
+            >Giriş Yap</a
+          >
+          <a href="#" class="px-3 border-right text-dark">İstek Listesi (0)</a>
+        </div>
+      </div>
+
+      <!-- Primary Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark color-secondary-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Eticaretim.com</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto font-rubik">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Ana Sayfa</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">İndirim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kategori</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >Ürünler <i class="fas fa-chevron-down"></i
+                ></a>
+              </li>
+            </ul>
+            <form action="#" class="font-size-14 font-rale">
+              <a href="#" class="py-2 rounded-pill color-primary-bg">
+                <span class="font-size-16 px-2 text-white"
+                  ><i class="fas fa-shopping-cart"></i
+                ></span>
+                <span class="px-3 py-2 rounded-pill text-dark bg-light GFG"
+                  >0</span
+                >
+              </a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main id="main-site">
+      <!-- PRODUCT START -->
+      <section id="product" class="py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <img
+                src="./assets/products/1.png"
+                alt="product"
+                class="img-fluid"
+              />
+              <div class="row pt-4 font-size-16 font-baloo">
+                <div class="col">
+                  <button type="submit" class="btn btn-warning form-control">
+                    Sepete Ekle
+                  </button>
+                </div>
+                <div class="col">
+                  <button type="submit" class="btn btn-success form-control">
+                    Hemen Satın Al!
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 py-5">
+              <h5 class="font-baloo font-size-20">Samsung Galaxy 10</h5>
+              <small>by Samsung</small>
+              <div class="d-flex">
+                <div class="rating text-warning font-size-12">
+                  <span>
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span>
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span>
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span>
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <span>
+                    <i class="far fa-star"></i>
+                  </span>
+                </div>
+                <a href="#" class="px-2 font-rale font-size-14"
+                  >5,215 Oylama | 50+ Yorum</a
+                >
+              </div>
+              <hr class="m-0" />
+              <!-- ürün fiyatı -->
+              <table class="my-3">
+                <tr class="font-rale font-size-14">
+                  <td>Satış Fiyatı:</td>
+                  <td><strike>₺1499</strike></td>
+                </tr>
+                <tr class="font-rale font-size-14">
+                  <td>İndirimli Fiyatı:</td>
+                  <td class="font-size-20 text-danger">
+                    ₺<span>1299</span
+                    ><small class="text-dark font-size-12"
+                      >&nbsp;&nbsp;KDV Dahil</small
+                    >
+                  </td>
+                </tr>
+                <tr class="font-rale font-size-14">
+                  <td>Kazancınız:</td>
+                  <td class="font-size-16 text-danger">₺<span>200</span></td>
+                </tr>
+              </table>
+              <!--ürün fiyatı sonu -->
+              <!-- ŞİRKET POLİTİKASI -->
+              <div id="policy">
+                <div class="d-flex">
+                  <div class="return text-center mr-5 mx-3">
+                    <div class="font-size-20 my-2 color-secondary">
+                      <span
+                        class="fas fa-retweet border p-3 rounded-pill"
+                      ></span>
+                    </div>
+                    <a href="#" class="font-rale font-size-12"
+                      >2 Hafta İçerisinde <br />
+                      İade İmkanı</a
+                    >
+                  </div>
+                  <div class="return text-center mr-5 mx-3">
+                    <div class="font-size-20 my-2 color-secondary">
+                      <span class="fas fa-truck border p-3 rounded-pill"></span>
+                    </div>
+                    <a href="#" class="font-rale font-size-12"
+                      >Haftanın 7 Günü <br />
+                      Kargo</a
+                    >
+                  </div>
+                  <div class="return text-center mr-5 mx-3">
+                    <div class="font-size-20 my-2 color-secondary">
+                      <span
+                        class="fas fa-check-double border p-3 rounded-pill"
+                      ></span>
+                    </div>
+                    <a href="#" class="font-rale font-size-12"
+                      >1 Yıllık<br />
+                      Garanti</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- ŞİRKET POLİTİKASI SONU-->
+              <hr />
+              <!-- ürün detayları -->
+              <div
+                id="order-details"
+                class="font-rale d-flex flex-column text-dark"
+              >
+                <small>Tem 19 - Tem 22 arası teslim</small>
+                <small
+                  ><a href="#">TECHPOINT</a> tarafından satılmaktadır (5
+                  üzerinden 4.5 | 5.163 oy)</small
+                >
+                <small
+                  ><i class="fas fa-map-marker-alt color-primary"></i
+                  >&nbsp;&nbsp; Müşteri Hizmetleri : 444 00 59</small
+                >
+              </div>
+              <!-- ürün detayları sonu -->
+
+              <div class="row">
+                <div class="col-6">
+                  <!-- renk -->
+                  <div class="color my-3">
+                    <div class="d-flex justify-content-between">
+                      <h6 class="font-baloo">Color:</h6>
+                      <div class="p-2 color-platinum-bg rounded-circle">
+                        <button class="btn font-size-14"></button>
+                      </div>
+                      <div class="p-2 color-primary-bg rounded-circle">
+                        <button class="btn font-size-14"></button>
+                      </div>
+                      <div class="p-2 color-secondary-bg rounded-circle">
+                        <button class="btn font-size-14"></button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- renk -->
+                </div>
+                <div class="col-6">
+                  <!-- qty başı -->
+                  <div class="qty d-flex">
+                    <h6 class="font-baloo">Miktar</h6>
+                    <div class="px-4 d-flex font-rale">
+                      <button class="qty-up border bg-light" data-id="pro1">
+                        <i class="fas fa-angle-up"></i>
+                      </button>
+                      <input
+                        type="text"
+                        class="qty_input border px-2 w-50 bg-light"
+                        data-id="pro1"
+                        disabled
+                        value="1"
+                        placeholder="1"
+                      />
+                      <button class="qty-down border bg-light" data-id="pro1">
+                        <i class="fas fa-angle-down"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <!-- qty sonu-->
+                </div>
+              </div>
+
+              <!-- boyut -->
+              <div class="size my-3">
+                <h6 class="font-baloo">Hafıza:</h6>
+                <div class="d-flex justify-content-between w-75">
+                  <div class="font-rubik border p-2">
+                    <button class="btn p-0 font-size-14">4GB RAM</button>
+                  </div>
+                  <div class="font-rubik border p-2">
+                    <button class="btn p-0 font-size-14">8GB RAM</button>
+                  </div>
+                  <div class="font-rubik border p-2">
+                    <button class="btn p-0 font-size-14">16GB RAM</button>
+                  </div>
+                </div>
+              </div>
+              <!-- boyut sonu -->
+            </div>
+
+            <div class="col-12 mt-5">
+              <h6 class="font-rubik">Ürün Açıklaması</h6>
+              <hr />
+              <p class="font-rale font-size-14">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nam
+                quo quibusdam porro impedit molestiae totam in cupiditate maxime
+                repellendus. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Repellat quam quod voluptatum commodi similique! Earum
+                recusandae explicabo culpa porro quos voluptatem soluta saepe,
+                assumenda aperiam.
+              </p>
+              <p class="font-rale font-size-14">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nam
+                quo quibusdam porro impedit molestiae totam in cupiditate maxime
+                repellendus. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Repellat quam quod voluptatum commodi similique! Earum
+                recusandae explicabo culpa porro quos voluptatem soluta saepe,
+                assumenda aperiam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PRODUCT END -->
+
+      <!-- TOP SALE START-->
+      <section id="top-sale">
+        <div class="container py-5">
+          <h4 class="font-rubik font-size-20">Çok Satanlar</h4>
+          <hr />
+          <!-- owl carousel-->
+          <div class="owl-carousel owl-theme">
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/1.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Samsung Galaxy 10</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1299</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/2.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Redmi Note 8</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1499</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/3.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Xiaomi Mi9</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1799</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/4.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Samsung Note 11</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺2199</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/5.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Xiaomi Poco X2</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1159</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/5.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Xiaomi Poco X2</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1159</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TOP SALE END-->
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer id="footer" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-12">
+            <h4 class="font-rubik font-size-20">Eticaretim.com</h4>
+            <p class="font-size-14 font-rale text-white-50">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+              dicta voluptatum amet. Accusantium voluptatum doloremque nobis
+              voluptates facilis cum corrupti!
+            </p>
+          </div>
+          <div class="col-lg-4 col-12">
+            <h4 class="font-rubik font-size-20">Haberler</h4>
+            <form class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Email *" />
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-primary mt-2">
+                  Abone Ol!
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-2 col-12">
+            <h4 class="font-rubik font-size-20">Bilgiler</h4>
+            <div class="d-flex flex-column flex-wrap">
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Hakkımızda</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Getirme Seçenekleri</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >İletişim</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Gizlilik Politikası</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-2 col-12">
+            <h4 class="font-rubik font-size-20">Hesap</h4>
+            <div class="d-flex flex-column flex-wrap">
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Hesabım</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Gösterim Geçmişi</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >İstek Listesi</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Sık Sorulan Sorular</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright text-center bg-dark text-white py-2">
+      <p class="font-rale font-size-14">&copy;2021, Berkay Buyukkoru</p>
+    </div>
+    <!-- FOOTER END -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <!-- OWL CAROUSEL JS FILE -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- CUSTOM JAVASCRIPT -->
+    <script src="./index.js"></script>
+    <!-- ISOTOPE JQUERY PLUGIN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+      integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>

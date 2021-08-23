@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- BOOTSTRAP CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- OWL CAROUSEL CDN-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .GFG {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header id="header">
+      <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+        <p class="font-rale font-size-12 text-black-50 m-0">
+          Berkay Buyukkoru, 2021
+        </p>
+        <div class="font-rale font-size-14">
+          <a href="#" class="px-3 border-right border-left text-dark"
+            >Giriş Yap</a
+          >
+          <a href="#" class="px-3 border-right text-dark">İstek Listesi (0)</a>
+        </div>
+      </div>
+
+      <!-- Primary Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark color-secondary-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Eticaretim.com</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto font-rubik">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Ana Sayfa</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">İndirim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kategori</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >Ürünler <i class="fas fa-chevron-down"></i
+                ></a>
+              </li>
+            </ul>
+            <form action="#" class="font-size-14 font-rale">
+              <a href="#" class="py-2 rounded-pill color-primary-bg">
+                <span class="font-size-16 px-2 text-white"
+                  ><i class="fas fa-shopping-cart"></i
+                ></span>
+                <span class="px-3 py-2 rounded-pill text-dark bg-light GFG"
+                  >0</span
+                >
+              </a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main id="main-site">
+      <!-- OWL CAROUSEL START -->
+      <section id="banner-area">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="./assets/Banner1.png" alt="Banner1" />
+          </div>
+          <div class="item">
+            <img src="./assets/Banner2.png" alt="Banner2" />
+          </div>
+          <div class="item">
+            <img src="./assets/Banner1.png" alt="Banner3" />
+          </div>
+        </div>
+      </section>
+      <!-- OWL CAROUSEL END-->
+
+      <!-- TOP SALE START-->
+      <section id="top-sale">
+        <div class="container py-5">
+          <h4 class="font-rubik font-size-20">Çok Satanlar</h4>
+          <hr />
+          <!-- owl carousel-->
+          <div class="owl-carousel owl-theme">
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/1.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Samsung Galaxy 10</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1299</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/2.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Redmi Note 8</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1499</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/3.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Xiaomi Mi9</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1799</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/4.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Samsung Note 11</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺2199</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/5.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Xiaomi Poco X2</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1159</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/5.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Xiaomi Poco X2</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1159</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TOP SALE END-->
+
+      <!-- SPECIAL PRICE START -->
+      <section id="special-price">
+        <div class="container">
+          <h4 class="font-rubik font-size-20">Özel Fırsatlar</h4>
+          <div
+            id="filters"
+            class="button-group text-right font-baloo font-size-16"
+          >
+            <button class="btn is-checked" data-filter="*">
+              Bütün Markalar
+            </button>
+            <button class="btn" data-filter=".Apple">Apple</button>
+            <button class="btn" data-filter=".Samsung">Samsung</button>
+            <button class="btn" data-filter=".Redmi">Redmi</button>
+            <hr />
+          </div>
+          <div class="grid">
+            <div class="grid-item Apple border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/products/13.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>Apple iPhone X</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </div>
+                    <div class="price py-2">
+                      <span>₺4999</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Sepete Ekle
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Samsung border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/products/11.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>Samsung Galaxy 8</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </div>
+                    <div class="price py-2">
+                      <span>₺1299</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Sepete Ekle
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Redmi border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/products/3.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>Redmi Note 7 Pro</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </div>
+                    <div class="price py-2">
+                      <span>₺1399</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Sepete Ekle
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Apple border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/products/14.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>Apple iPhone 6S</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </div>
+                    <div class="price py-2">
+                      <span>₺1099</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Sepete Ekle
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Samsung border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/products/12.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>Samsung Galaxy S9</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </div>
+                    <div class="price py-2">
+                      <span>₺1899</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Sepete Ekle
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Samsung border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/products/11.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>Samsung Galaxy S5</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </div>
+                    <div class="price py-2">
+                      <span>₺1499</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Sepete Ekle
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Redmi border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/products/8.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>Redmi Black Spec Pro</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </div>
+                    <div class="price py-2">
+                      <span>₺1799</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Sepete Ekle
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Apple border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/products/15.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>Apple iPhone 8</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </div>
+                    <div class="price py-2">
+                      <span>₺2399</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Sepete Ekle
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item Redmi border">
+              <div class="item py-2" style="width: 200px">
+                <div class="product font-rale">
+                  <a href="#"
+                    ><img
+                      src="./assets/products/5.png"
+                      alt="product1"
+                      class="img-fluid"
+                  /></a>
+                  <div class="text-center">
+                    <h6>Xiaomi Poco X2</h6>
+                    <div class="rating text-warning font-size-12">
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="fas fa-star"></i>
+                      </span>
+                      <span>
+                        <i class="far fa-star"></i>
+                      </span>
+                    </div>
+                    <div class="price py-2">
+                      <span>₺1399</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning font-size-12">
+                      Sepete Ekle
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SPECIAL PRICE END -->
+
+      <!-- BANNER ADS START -->
+      <!-- <section id="banner_ads">
+        <div class="container py-5 text-center">
+          <img
+            src="./assets/banner1-cr-500x150.jpg"
+            alt="banner1"
+            class="img-fluid"
+          />
+          <img
+            src="./assets/banner2-cr-500x150.jpg"
+            alt="banner1"
+            class="img-fluid"
+          />
+        </div>
+      </section> -->
+      <!-- BANNER ADS END -->
+      <!-- NEW PHONES START -->
+      <section id="new-phones">
+        <div class="container my-5">
+          <h4 class="font-rubik font-size-20">Yeni Gelenler</h4>
+          <hr />
+          <div class="owl-carousel owl-theme">
+            <div class="item py-2 bg-light">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/1.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Samsung Galaxy 10</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1299</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2 bg-light">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/2.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Redmi Note 8</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1499</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2 bg-light">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/3.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Xiaomi Mi9</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1799</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2 bg-light">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/4.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Samsung Note 11</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺2199</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2 bg-light">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/5.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Xiaomi Poco X2</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1159</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item py-2 bg-light">
+              <div class="product font-rale">
+                <a href="#"
+                  ><img
+                    src="./assets/products/5.png"
+                    alt="product1"
+                    class="img-fluid"
+                /></a>
+                <div class="text-center">
+                  <h6>Xiaomi Poco X2</h6>
+                  <div class="rating text-warning font-size-12">
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>
+                      <i class="far fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="price py-2">
+                    <span>₺1159</span>
+                  </div>
+                  <button type="submit" class="btn btn-warning font-size-12">
+                    Sepete Ekle
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- NEW PHONES END -->
+
+      <!-- BLOGS START -->
+      <section id="blogs">
+        <div class="container py-4">
+          <h4 class="font-rubik font-size-30">Son Yazılar</h4>
+          <hr />
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="card border-0 font-rale mr-5" style="width: 18rem">
+                <h5>Yakında Çıkacak Telefonlar</h5>
+                <img
+                  src="./assets/blog/blog1.jpg"
+                  alt="cart image"
+                  class="card-img-top"
+                />
+                <p class="card-text font-size-14 text-black-50 py-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia quia similique nulla voluptas iusto in deserunt illo
+                  laudantium cumque aut.
+                </p>
+                <a href="#" class="color-secondary text-left"
+                  >Daha Fazla Oku..</a
+                >
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 font-rale mr-5" style="width: 18rem">
+                <h5>Yakında Çıkacak Telefonlar</h5>
+                <img
+                  src="./assets/blog/blog2.jpg"
+                  alt="cart image"
+                  class="card-img-top"
+                />
+                <p class="card-text font-size-14 text-black-50 py-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia quia similique nulla voluptas iusto in deserunt illo
+                  laudantium cumque aut.
+                </p>
+                <a href="#" class="color-secondary text-left"
+                  >Daha Fazla Oku..</a
+                >
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 font-rale mr-5" style="width: 18rem">
+                <h5>Yakında Çıkacak Telefonlar</h5>
+                <img
+                  src="./assets/blog/blog3.jpg"
+                  alt="cart image"
+                  class="card-img-top"
+                />
+                <p class="card-text font-size-14 text-black-50 py-1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia quia similique nulla voluptas iusto in deserunt illo
+                  laudantium cumque aut.
+                </p>
+                <a href="#" class="color-secondary text-left"
+                  >Daha Fazla Oku..</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BLOGS END -->
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer id="footer" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-12">
+            <h4 class="font-rubik font-size-20">Eticaretim.com</h4>
+            <p class="font-size-14 font-rale text-white-50">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+              dicta voluptatum amet. Accusantium voluptatum doloremque nobis
+              voluptates facilis cum corrupti!
+            </p>
+          </div>
+          <div class="col-lg-4 col-12">
+            <h4 class="font-rubik font-size-20">Haberler</h4>
+            <form class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Email *" />
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-primary mt-2">
+                  Abone Ol!
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-2 col-12">
+            <h4 class="font-rubik font-size-20">Bilgiler</h4>
+            <div class="d-flex flex-column flex-wrap">
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Hakkımızda</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Getirme Seçenekleri</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >İletişim</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Gizlilik Politikası</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-2 col-12">
+            <h4 class="font-rubik font-size-20">Hesap</h4>
+            <div class="d-flex flex-column flex-wrap">
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Hesabım</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Gösterim Geçmişi</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >İstek Listesi</a
+              >
+              <a href="#" class="font-rale font-size-14 text-white-50 pb-1"
+                >Sık Sorulan Sorular</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright text-center bg-dark text-white py-2">
+      <p class="font-rale font-size-14">&copy;2021, Berkay Buyukkoru</p>
+    </div>
+    <!-- FOOTER END -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <!-- OWL CAROUSEL JS FILE -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- CUSTOM JAVASCRIPT -->
+    <script src="./index.js"></script>
+    <!-- ISOTOPE JQUERY PLUGIN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+      integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
